@@ -1,0 +1,67 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    display:flex;
+    margin:30px 30px;
+    justify-content:center;
+    allign-items: center;
+    background-color: blanchedalmond;
+    
+}
+.container{
+    /* main section where our app works */
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    padding: 3rem; 
+/* curves */
+    border-width:2rem;
+    border-radius: 2rem; 
+}
+form{
+    margin: 1rem;
+    border-color: black;
+}
+form.select,button,input{
+/* makes the drop down box to its fullest  */
+    width:100%;
+    /* border:none; */
+    /* outline: null; */
+}
+.dropdown{
+    display:flex;
+    justify-content: space-between;
+}
+.select-container img{
+   /* max-width: 2rem;  */
+}
+.select-container select{
+/* the words usd & inr */
+    font-size: 1rem;
+    width:auto;
+}
+.msg{
+    font-size: 0.75rem;
+}
+
+form button{
+/* get exchange rate */
+    height:1.5rem;
+    /* width:2rem; */
+    background-color: rgb(180, 6, 67);
+    font-size: 15px;
+    font-style: Georgia ;
+    margin: 15px 10px;
+    /* text-allign: center; */
+    cursor:pointer;
+    border-radius: 1rem;
+    border: none;
+
+
+
+}
+.from.img,.to.img{
+    font-size: 100px;
+}
